@@ -18,8 +18,8 @@
 export const portafolioData = [
 	{
 		imgSrc: '/img/vainas.jpg',
-		title: 'Analisis superficie de vainas',
-		skills: ['React', 'StyledComponents'],
+		title: 'Análisis superficie de vainas',
+		skills: ['Python', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch'],
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
@@ -28,8 +28,8 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: '/img/soldaduras.jpg',
-		title: 'Supervision de soldaduras',
-		skills: ['JavaScript', 'Bootstrap'],
+		title: 'Supervisión de soldaduras',
+		skills: ['Python', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch'],
 		descripcion:
 			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
@@ -39,8 +39,8 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: '/img/pastillas.jpg',
-		title: 'Deteccion de fallas en Uranio',
-		skills: ['React', 'CSS'],
+		title: 'Detección de fallas en Uranio',
+		skills: ['Python', 'OpenCV', 'Tensorflow', 'PyTorch', 'Docker'],
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
@@ -50,14 +50,14 @@ export const portafolioData = [
 ];
 
 const skillIcons = {
-	JavaScript: 'skill-icons:javascript',
-	React: 'skill-icons:react-dark',
-	Astro: 'skill-icons:astro',
-	CSS: 'skill-icons:css',
-	Sass: 'skill-icons:sass',
-	StyledComponents: 'skill-icons:styledcomponents',
-	Bootstrap: 'skill-icons:bootstrap',
-	Tailwind: 'skill-icons:tailwindcss-dark',
+	CSS: 'skill-icons:css-dark',
+	Python: 'skill-icons:python-dark',
+	HTML: 'skill-icons:html',
+	Qt: 'skill-icons:qt-dark',
+	PyTorch: 'skill-icons:pytorch-dark',
+	Tensorflow: 'skill-icons:tensorflow-dark',
+	Docker: 'skill-icons:docker',
+	OpenCV: 'skill-icons:opencv-dark',
 };
 
 /**
