@@ -19,7 +19,7 @@ export const portafolioData = [
 	{
 		imgSrc: '/img/vainas.jpg',
 		title: 'Análisis superficie de vainas',
-		skills: ['Python', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch'],
+		skills: ['Python', 'Colab', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch', 'Windows'],
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
@@ -29,7 +29,7 @@ export const portafolioData = [
 	{
 		imgSrc: '/img/soldaduras.jpg',
 		title: 'Supervisión de soldaduras',
-		skills: ['Python', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch'],
+		skills: ['Python', 'Colab', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch', 'Windows'],
 		descripcion:
 			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
@@ -40,7 +40,7 @@ export const portafolioData = [
 	{
 		imgSrc: '/img/pastillas.jpg',
 		title: 'Detección de fallas en Uranio',
-		skills: ['Python', 'OpenCV', 'Tensorflow', 'PyTorch', 'Docker'],
+		skills: ['Python', 'Colab', 'OpenCV', 'Tensorflow', 'PyTorch', 'Docker', 'Ubuntu'],
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
@@ -58,6 +58,12 @@ const skillIcons = {
 	Tensorflow: 'skill-icons:tensorflow-dark',
 	Docker: 'skill-icons:docker',
 	OpenCV: 'skill-icons:opencv-dark',
+	Colab: 'devicon:googlecolab',
+	Jupyter: 'devicon:jupyter-wordmark',
+	Numpy: 'devicon:numpy',
+	Ubuntu: 'skill-icons:ubuntu-dark',
+	Windows: 'skill-icons:windows-dark',
+	SciKit: 'skill-icons:scikitlearn-dark'
 };
 
 /**
