@@ -21,7 +21,7 @@ export const portafolioData = [
 		title: 'Análisis superficie de vainas',
 		skills: ['Python', 'Colab', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch', 'Windows'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Análisis con IA la superficie de las vainas de los elementos combustibles para detectar fallas en la superficie y separar las NOK con un brazo robótico.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
@@ -31,7 +31,7 @@ export const portafolioData = [
 		title: 'Supervisión de soldaduras',
 		skills: ['Python', 'Colab', 'Qt', 'OpenCV', 'Tensorflow', 'PyTorch', 'Windows'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Análisis con varios modelos de IA para detectar y clasificar los defectos en las soldaduras de tapones de los elementos combustibles.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-up',
@@ -42,9 +42,39 @@ export const portafolioData = [
 		title: 'Detección de fallas en Uranio',
 		skills: ['Python', 'Colab', 'OpenCV', 'Tensorflow', 'PyTorch', 'Docker', 'Ubuntu'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Analisis con filtros complejos de OpenCV e IA para detectar, medir y clasificar fallas en las pastillas de uranio y separar las NOK con un brazo robótico.',
 		demoURL: '',
 		repoURL: '',
+		anim: 'fade-left',
+	},
+	{
+		imgSrc: '/img/full-ret.png',
+		title: 'RAG LangChain',
+		skills: ['Python', 'Ubuntu', 'Colab', 'Langchain'],
+		descripcion:
+			'RAG basado en LangChain arquitectura Parent Retriever para la generación de respuestas en base a varios documentos .pdf previamente cargados.',
+		demoURL: 'https://github.com/IgnacioBarroso/RAG-project/archive/refs/heads/master.zip',
+		repoURL: 'https://github.com/IgnacioBarroso/RAG-project',
+		anim: 'fade-left',
+	},
+	{
+		imgSrc: '/img/pastillas.jpg',
+		title: 'Python Offensive Tools',
+		skills: ['Python', 'Ubuntu', 'Docker'],
+		descripcion:
+			'Conjunto de herramientas ofensivas en Python para realizar ataques de fuerza bruta, sniffing, escaneo de puertos, malware, etc.',
+		demoURL: 'https://github.com/IgnacioBarroso/Python-Offensive-Tools/archive/refs/heads/master.zip',
+		repoURL: 'https://github.com/IgnacioBarroso/Python-Offensive-Tools',
+		anim: 'fade-left',
+	},
+	{
+		imgSrc: '/img/pastillas.jpg',
+		title: 'ETL/Analytics - Bs.As. Crime',
+		skills: ['Python', 'Colab', 'Ubuntu'],
+		descripcion:
+			'Proyecto de ETL y análisis de datos de crimen en Buenos Aires, Argentina. Se realiza la extracción, transformación y carga de los datos, y se realiza un análisis exploratorio de los mismos.',
+		demoURL: 'https://github.com/IgnacioBarroso/BsAs-CrimeData-Analysis/archive/refs/heads/master.zip',
+		repoURL: 'https://github.com/IgnacioBarroso/BsAs-CrimeData-Analysis',
 		anim: 'fade-left',
 	},
 ];
@@ -63,7 +93,8 @@ const skillIcons = {
 	Numpy: 'devicon:numpy',
 	Ubuntu: 'skill-icons:ubuntu-dark',
 	Windows: 'skill-icons:windows-dark',
-	SciKit: 'skill-icons:scikitlearn-dark'
+	SciKit: 'skill-icons:scikitlearn-dark',
+	Langchain: 'simple-icons:langchain',
 };
 
 /**
