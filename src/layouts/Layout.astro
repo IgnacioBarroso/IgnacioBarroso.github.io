@@ -4,7 +4,7 @@ interface Props {
 	title: string;
 	favicon?: string;
 }
-const { title, favicon = "/favicon.svg" } = Astro.props;
+const { title, favicon = "/assets/programmer.ico" } = Astro.props;
 import Header from '../components/header/Header.astro';
 import { mainMenu } from '../components/data/menuData.js';
 ---
@@ -13,7 +13,7 @@ import { mainMenu } from '../components/data/menuData.js';
 <html lang="es">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content="Ignacio Barroso - Portfolio" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/x-icon" href={favicon} />
 		<meta name="generator" content={Astro.generator} />
