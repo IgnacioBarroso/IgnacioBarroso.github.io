@@ -4,7 +4,7 @@ interface Props {
 	title: string;
 	favicon?: string;
 }
-const { title, favicon = "/assets/programmer.ico" } = Astro.props;
+const { title, favicon = "public/img/programmer.ico" } = Astro.props;
 import Header from '../components/header/Header.astro';
 import { mainMenu } from '../components/data/menuData.js';
 ---
